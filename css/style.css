@@ -1,17 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;900&display=swap');
+html, body{
+        font-family: 'Red Hat Display', sans-serif;
+        color: #fff;
+}
 body{
     background: linear-gradient(
         rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)
-      ), url("/img/bg.jpg");
+    ), url("/img/bg.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+
 }
 .logo{
-    margin-top: 30px;
-    margin-bottom: 10px;
+
     text-align: center;
 }
 .logo img{
-    max-width: 145px;
+    max-width: 145px;    
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.list-group{
+    background: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px auto;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 450px;
+}
+.fa-check{
+    font-size: 22px;
+    margin-right: 5px;
+    color: #009fdf;
 }
