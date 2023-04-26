@@ -117,7 +117,33 @@ hr{
 .btn.btn-light.my-1.rounded-pill.google{
     font-weight: 500;
     height: 45px;
+    color: rgba(0,0,0,.54)!important;
 }
 img.google{
     width: 20px;
+}
+.spacer {
+    background-color: #fff;
+    display: block;
+    height: 1px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+.spacer::before{
+    background-color: rgba(0,0,0,.19);
+    content: "";
+    height: 1px;
+    left: 5%;
+    position: absolute;
+    top: 50%;
+    width: 90%;
+}
+form.login{
+    max-width: 377px;
+    
+}
+form{
+    margin: 0 auto;
+    padding-top: 20px;
 }
