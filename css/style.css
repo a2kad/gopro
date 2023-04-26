@@ -1,127 +1,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;900&display=swap');
-html, body{
-        font-family: 'Red Hat Display', sans-serif;
-        color: #fff;
+
+html,
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #fff;
 }
-i{
+
+i {
     margin-right: 5px;
 }
-body{
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.7), 
-        rgba(0, 0, 0, 0.7)
-    ), url("../img/bg.jpg");
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url("../img/bg.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
 
 }
-.logo{
+
+.logo {
 
     text-align: center;
 }
-.logo img{
-    max-width: 145px;    
+
+.logo img {
+    max-width: 145px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
-.header{
+
+.header {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 30px;
     color: #fff;
 }
-.list-group{
+
+.list-group {
     background: none;
     color: #fff;
     font-weight: 600;
     font-size: 16px;
     margin: 20px auto;
 }
-ul li{
+
+ul li {
     list-style: none;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    
     max-width: 450px;
 }
-.fa-check{
+
+.fa-check {
     font-size: 22px;
     margin-right: 5px;
     color: #009fdf;
 }
-.formLogin{
+
+.formLogin {
     border: none;
     padding: 21px 27px 21px 47px;
     width: 100%;
     color: #AAA;
 }
-.col-4{
-    position: relative;
 
+.col-4 {
+    position: relative;
 }
-.col-4 i.fa-envelope, i.fa-lock{
+
+.col-4 i.fa-envelope,
+i.fa-lock {
     position: absolute;
-    top:26px;
-    left: 26px;
+    top: 26px;
+    left: 36px;
     color: #03bffe;
 }
-.forLinge{
+
+.forLinge {
     border-top: #AAA solid 1px;
     border-top-width: 200px;
 }
-hr{
-    margin: 0!important;
-    color: #AAA!important;
+
+hr {
+    margin: 0 !important;
+    color: #AAA !important;
 }
+
 .btn.btn-primary.my-3.rounded-pill {
-    background-color: #009fdf!important;
+    background-color: #009fdf !important;
     border-color: #009fdf;
     font-weight: bold;
 }
-.forgot{
+
+.forgot {
     color: #a4a5a5;
     text-align: center;
     font-size: smaller;
     margin: 0;
     padding: 0;
 }
-.forgot i.fa-lock{
+
+.forgot i.fa-lock {
     color: #a4a5a5;
     position: relative;
     top: 0;
     left: 0;
     margin-right: 5px;
 }
-.notSubscriber{
+
+.notSubscriber {
     color: #fff;
     text-align: center;
     margin-top: 10px;
 }
-.notSubscriber a{
+
+.notSubscriber a {
     color: #009fdf;
     text-decoration: none;
     font-weight: 500;
 }
-.btn.btn-dark.my-1.rounded-pill.apple{
+
+.btn.btn-dark.my-1.rounded-pill.apple {
     font-weight: 500;
     background-color: black;
     border: none;
 }
-.btn.btn-dark.my-1.rounded-pill.facebook{
+
+.btn.btn-dark.my-1.rounded-pill.facebook {
     font-weight: 500;
     background-color: #222;
 }
-.btn.btn-light.my-1.rounded-pill.google{
+
+.btn.btn-light.my-1.rounded-pill.google {
     font-weight: 500;
     height: 45px;
-    color: rgba(0,0,0,.54)!important;
+    color: rgba(0, 0, 0, .54) !important;
 }
-img.google{
+
+img.google {
     width: 20px;
 }
+
 .spacer {
     background-color: #fff;
     display: block;
@@ -130,8 +152,9 @@ img.google{
     width: 100%;
     z-index: 10;
 }
-.spacer::before{
-    background-color: rgba(0,0,0,.19);
+
+.spacer::before {
+    background-color: rgba(0, 0, 0, .19);
     content: "";
     height: 1px;
     left: 5%;
@@ -139,11 +162,12 @@ img.google{
     top: 50%;
     width: 90%;
 }
-form.login{
+
+form.login {
     max-width: 377px;
-    
 }
-form{
+
+form {
     margin: 0 auto;
     padding-top: 20px;
 }
